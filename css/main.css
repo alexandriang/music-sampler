@@ -1,0 +1,56 @@
+body {
+  background: #fff;
+  color: #000;
+  font-family: Helvetica, sans-serif;
+  margin: 3em;
+}
+
+h1 {
+    background: #fff;
+    color: #000;
+    padding: .5em;
+    margin: 0;
+    text-align: center;
+    font-family: Georgia, serif;
+  }
+
+#player1 {
+  float: right;
+}
+
+#player2 {
+  float: right;
+}
+
+#player3 {
+  float: right;
+}
+
+#player4 {
+  float: right;
+}
+
+#covers {
+  float: right;
+}
+
+article {
+    width: 50%;
+    float: left;
+    padding: 5em;
+    background: #eaeaea;
+  }
+
+@media (max-width: 480px) {
+    img{
+      max-width: 100%;
+    }
+    #images {
+      padding: 2em;
+    }
+    article {
+      padding: 2em;
+      margin: 0;
+      width: 80%
+    }
+  }
